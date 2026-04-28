@@ -279,12 +279,6 @@ sed -n -e '$p' file23
 
 
 
-
-
-
-
-
-
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
@@ -295,20 +289,13 @@ sed  -e 's/Ram/Sita/' file23
 
 
 
-
-
-
-
-
-
-
-
-
+![Uploading image.png…]()
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+
 
 
 sed  '/tom/s/5000/6000/' file23
