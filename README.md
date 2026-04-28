@@ -280,37 +280,30 @@ sed -n -e '$p' file23
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
-![alt text](<Screenshot from 2026-02-04 21-39-04.png>)
 
 
 sed  '/tom/s/5000/6000/' file23
